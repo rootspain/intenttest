@@ -1,3 +1,11 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  
+  <ion-router-outlet>
+    <ion-content [fullscreen]="true">
+      <br>
+      <ion-button (click)="onStartIntentClick()">Start Intent</ion-button>
+      <br><br><br>
+      <a href="tel:1234567890">link for "tel" application</a>
+    </ion-content>
+  </ion-router-outlet>
 </ion-app>

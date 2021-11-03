@@ -1,0 +1,7 @@
+{
+  "name": "intenttest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
